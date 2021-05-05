@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart marching</title>
+  </head>
+
+  <body style="background-color: rgb(256,256,256)">
+  <header>
+      <div class="wrapper">
+  
+          <h1>Smart matching <span class="orange">.</span></h1>
+          <p style='font-size:23px'>Add a link</p>
+          
+      </div>
+  </header>
+  
+  <form action="/smart_matching" method='POST'> <!-- Send the data to the web server to be processed-->  
+    
+      <div>
+          
+          <label class="label-grand" for='question1'> Job offer link:</label><br>
+          <textarea id='question1' name='question1' cols="50" rows="2"></textarea>
+          
+      <div>
+      <div>
+          
+          <label class="label-grand" for='question2'> Resume link:</label><br>
+          <textarea id='question2' name='question2' cols="50" rows="2"></textarea>
+          
+      <div>
+      <p> <input type ="submit" value="smart_matching"/> </p>
+  
+  </form>      
+      
+  </body>
+</html>
+
